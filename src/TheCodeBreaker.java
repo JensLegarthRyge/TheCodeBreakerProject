@@ -48,8 +48,7 @@ public class TheCodeBreaker {
 
     static String getInput(){
         Scanner scanner = new Scanner(System.in);
-        String userInput = scanner.nextLine();
-        return userInput;
+        return scanner.nextLine();
     }
 
     static void runNumberCypherEncoder(){
